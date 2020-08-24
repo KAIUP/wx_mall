@@ -1,0 +1,110 @@
+page {
+  padding-bottom: 90rpx;
+}
+.cart .cart_list .cart_item {
+  display: flex;
+  padding: 10rpx 20rpx;
+  border-bottom: 1rpx solid #ccc;
+}
+.cart .cart_list .cart_item .checkbox_wrap {
+  flex: 0.5;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.cart .cart_list .cart_item navigator {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex: 2;
+}
+.cart .cart_list .cart_item navigator image {
+  width: 85%;
+}
+.cart .cart_list .cart_item .goods_info {
+  flex: 4;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+}
+.cart .cart_list .cart_item .goods_info .goods_name {
+  display: -webkit-box;
+  -webkit-box-orient: vertical;
+  -webkit-line-clamp: 2;
+  overflow: hidden;
+}
+.cart .cart_list .cart_item .goods_info .goods_pn_wrap {
+  display: flex;
+  justify-content: space-between;
+}
+.cart .cart_list .cart_item .goods_info .goods_pn_wrap .goods_price {
+  color: var(--themeColor);
+  font-size: 32rpx;
+}
+.cart .cart_list .cart_item .goods_info .goods_pn_wrap .goods_count {
+  display: flex;
+}
+.cart .cart_list .cart_item .goods_info .goods_pn_wrap .goods_count .edit_num {
+  width: 50rpx;
+  height: 50rpx;
+  border: 1rpx solid #ccc;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.cart .cart_list .cart_item .goods_info .goods_pn_wrap .goods_count .count {
+  width: 50rpx;
+  height: 50rpx;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin: 0 10rpx;
+}
+.cart .cart_calc_bar {
+  border-top: 1rpx solid #ccc;
+  height: 90rpx;
+  position: fixed;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  background-color: #fff;
+  display: flex;
+}
+.cart .cart_calc_bar .all_check {
+  flex: 2;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.cart .cart_calc_bar .total_price {
+  flex: 4;
+  text-align: right;
+  padding-right: 20rpx;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+}
+.cart .cart_calc_bar .total_price text {
+  font-size: 34rpx;
+  color: var(--themeColor);
+}
+.cart .cart_calc_bar .total_price .tip {
+  color: #666;
+  font-size: 24rpx;
+}
+.cart .cart_calc_bar .calc_btn {
+  flex: 2;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: #fff;
+  font-weight: 600;
+  background-color: var(--themeColor);
+}
+.emptyCart {
+  width: 50%;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}

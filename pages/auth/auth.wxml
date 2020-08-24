@@ -1,0 +1,11 @@
+<view class="auth" style="padding:30rpx">
+  <button
+  size="default"
+  type="primary"
+  open-type="getUserInfo"
+  bindgetuserinfo="getuserinfo"
+  style="margin:20rpx 0;width:100%"
+  >
+    获取授权
+  </button>
+</view>

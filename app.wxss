@@ -1,0 +1,26 @@
+@import './static/iconfont.wxss';
+
+/*在小程序中不支持通配符 '*' */
+
+page,
+view,
+text,
+navigator,
+image,
+swiper,
+swiper-item {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+page {
+  /*通过变量定义主题色*/
+  --themeColor: #eb4450;
+  /*设置统一字体大小*/
+  font-size: 28rpx;
+}
+
+image {
+  width: 100%;
+}

@@ -1,0 +1,90 @@
+.pay {
+  height: 100vh;
+  background-color: #f5f5f5;
+  padding: 20rpx;
+}
+.pay .adress_wrap {
+  padding: 30rpx;
+  background-color: #fff;
+  border-radius: 30rpx;
+  margin-bottom: 30rpx;
+}
+.pay .adress_wrap .user_info {
+  margin-bottom: 10rpx;
+}
+.pay .adress_wrap .user_info .name {
+  font-size: 32rpx;
+  margin-right: 15rpx;
+}
+.pay .adress_wrap .user_info .phone_num {
+  color: #999;
+}
+.pay .goods_info {
+  padding: 30rpx;
+  margin-bottom: 30rpx;
+  background-color: #fff;
+  border-radius: 30rpx;
+  display: flex;
+}
+.pay .goods_info .left {
+  flex: 3;
+}
+.pay .goods_info .left image {
+  width: 80%;
+}
+.pay .goods_info .right {
+  flex: 5;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+}
+.pay .goods_info .right .goods_name {
+  display: -webkit-box;
+  -webkit-box-orient: vertical;
+  -webkit-line-clamp: 3;
+  overflow: hidden;
+}
+.pay .goods_info .right .price {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.pay .goods_info .right .price view:first-child {
+  color: var(--themeColor);
+  font-size: 32rpx;
+}
+.pay .cart_calc_bar {
+  border-top: 1rpx solid #ccc;
+  height: 90rpx;
+  position: fixed;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  background-color: #fff;
+  display: flex;
+}
+.pay .cart_calc_bar .total_price {
+  flex: 4;
+  text-align: right;
+  padding-right: 20rpx;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+}
+.pay .cart_calc_bar .total_price text {
+  font-size: 34rpx;
+  color: var(--themeColor);
+}
+.pay .cart_calc_bar .total_price .tip {
+  color: #666;
+  font-size: 24rpx;
+}
+.pay .cart_calc_bar .calc_btn {
+  flex: 2;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: #fff;
+  font-weight: 600;
+  background-color: var(--themeColor);
+}
